@@ -11,6 +11,9 @@ dependencies:
   '@tailwindcss/vite':
     specifier: ^4.1.4
     version: 4.1.4(vite@6.2.6)
+  primeflex:
+    specifier: ^4.0.0
+    version: 4.0.0
   primeicons:
     specifier: ^7.0.0
     version: 7.0.0
@@ -67,6 +70,9 @@ devDependencies:
   postcss:
     specifier: ^8.5.3
     version: 8.5.3
+  tailwind-merge:
+    specifier: ^3.2.0
+    version: 3.2.0
   tailwindcss:
     specifier: ^3.4.17
     version: 3.4.17
@@ -2375,6 +2381,10 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
+  /primeflex@4.0.0:
+    resolution: {integrity: sha512-UOEZCRjR36+sm5bUpDhS1xbA068l9VC6y1aTNVqQPtXuKIdPTqAWHRUxj3mKAoPrQ9W373ooJJMgNVXfiaw04g==}
+    dev: false
+
   /primeicons@7.0.0:
     resolution: {integrity: sha512-jK3Et9UzwzTsd6tzl2RmwrVY/b8raJ3QZLzoDACj+oTJ0oX7L9Hy+XnVwgo4QVKlKpnP/Ur13SXV/pVh4LzaDw==}
     dev: false
@@ -2677,6 +2687,10 @@ packages:
   /supports-preserve-symlinks-flag@1.0.0:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
+    dev: true
+
+  /tailwind-merge@3.2.0:
+    resolution: {integrity: sha512-FQT/OVqCD+7edmmJpsgCsY820RTD5AkBryuG5IUqR5YQZSdj5xlH5nLgH7YPths7WsLPSpSBNneJdM8aS8aeFA==}
     dev: true
 
   /tailwindcss@3.4.17:

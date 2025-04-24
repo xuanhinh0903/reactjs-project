@@ -14,7 +14,7 @@ function App() {
       <p>{value}</p>
       <button onClick={() => dispatch(increment())}>Increment</button>
       <button onClick={() => dispatch(decrement())}>Decrement</button>
-      <Button className="max-w-[50px]" tooltip="Confirm to proceed" tooltipOptions={{ showDelay: 1000, hideDelay: 300 }} label="Save" />
+      <Button className="p-[10px]" tooltip="Confirm to proceed" tooltipOptions={{ showDelay: 1000, hideDelay: 300 }} label="Save" />
       <AutoComplete />
       <h1 className="text-3xl bg-red-700 font-bold underline">
         React 19 with Tailwind CSS v4
